@@ -12,7 +12,8 @@ import img from "../images/Infinity-1s-200px.svg";
 import ModalImage from "react-modal-image";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-import createHistory from 'history/createBrowserHistory';
+// import createHistory from 'history/createBrowserHistory';
+import { createBrowserHistory } from 'history'
 
 export default function ListCar() {
   const [dataMobilAdmin, setDataMobilAdmin] = useState([]);
@@ -20,7 +21,7 @@ export default function ListCar() {
   const alert = useLocation();
   console.log("alert:", alert.state)
 
-  const history = createHistory();
+  const history = createBrowserHistory();
   if (
     history.location?.state?.status
   ) {
@@ -81,7 +82,7 @@ export default function ListCar() {
       {loading === true ? (
         <>
           <div className="text-center">
-            <img src={img} alt="" srcset="" />
+            <img src={img} alt="" />
             Loading
           </div>
         </>
@@ -90,7 +91,7 @@ export default function ListCar() {
           <div className="row">
             {dataMobilAdmin?.map((data) => {
               return (
-                <div className="col-md-4">
+                <div className="col-md-4" key={data.id}>
                   <div className="card p-3 mb-4">
                     <ModalImage
                       small={`${data.image}`}

@@ -197,7 +197,7 @@ export default function AddNewCar() {
               <div className="col-sm-10">
                 <Input
                   type="text"
-                  readonly
+                  readOnly
                   className="form-control-plaintext custom-font-1"
                   id="inputStart"
                   value="-"
@@ -214,7 +214,7 @@ export default function AddNewCar() {
               <div className="col-sm-10">
                 <Input
                   type="text"
-                  readonly
+                  readOnly
                   className="form-control-plaintext custom-font-1"
                   id="inputFinish"
                   value="-"
@@ -231,7 +231,7 @@ export default function AddNewCar() {
               <div className="col-sm-10">
                 <Input
                   type="text"
-                  readonly
+                  readOnly
                   className="form-control-plaintext custom-font-1"
                   id="inputCreated"
                   value="-"
@@ -248,7 +248,7 @@ export default function AddNewCar() {
               <div className="col-sm-10">
                 <Input
                   type="text"
-                  readonly
+                  readOnly
                   className="form-control-plaintext custom-font-1"
                   id="inputUpdated"
                   value="-"
