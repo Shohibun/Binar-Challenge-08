@@ -1,0 +1,145 @@
+.custom-user-font {
+    font-size: 14px;
+}
+
+.custom-color-user {
+    color: black;
+}
+
+.custom-user-head1 {
+    font-size: 36px;
+}
+
+.custom-user-logo {
+    background: #0D28A6;
+    width: 100px;
+    height: 34px;
+}
+
+.custom-user-cursor {
+    color: black !important;
+    transition: .5s;
+}
+
+.custom-user-cursor:hover {
+    cursor: pointer;
+    color: white !important;
+    background-color: #5CB85F;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.custom-user-section1 {
+    background-color: #F1F3FF;
+    background-image: url('../images/img_car.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.custom-user-checklist {
+    background-color: #CFD4ED;
+}
+
+.custom-user-box {
+    background-color: #0D28A6;
+    border-radius: 13px;
+}
+
+.custom-user-testi {
+    background-color: #F1F3FF;
+    border-radius: 13px;
+}
+
+.custom-user-owl-nav {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.fa-circle-chevron-left {
+    margin-right: 10px;
+}
+
+.svg-inline--fa {
+    font-size: 30px;
+}
+
+.svg-inline--fa :hover {
+    color: #5CB85F;
+}
+
+.custom-user-star {
+    width: 15px !important;
+}
+
+/* ---------------------------------------------------
+    RESPONSIVE CSS
+----------------------------------------------------- */
+
+@media only screen and (max-width: 768px) {
+    nav div div div a{
+        font-size: 9px;
+    }
+
+    .custom-user-section1 {
+        color: #F1F3FF;
+        width: 100%;
+        text-align: center;
+    }
+
+    .custom-user-box {
+        font-size: 12px;
+        margin: 20px;
+    }
+
+    .custom-user-gap {
+        margin-bottom: 10px;
+    } 
+}
+
+@media only screen and (max-width: 576px) {
+    nav div div div a{
+        font-size: 14px !important;
+    }
+    
+    .custom-user-cover {
+        background-color: #0D28A6;
+        border-radius: 8px;
+        padding-top: 16px;
+        padding-bottom: 15px;
+        margin: 0px;
+    }
+
+    .custom-user-section1 {
+        color: #F1F3FF;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .custom-user-foto {
+        width: 50%;
+        margin-left: 110px;
+    }
+
+    .custom-user-huruf {
+        text-align: center;
+    }
+
+    .custom-user-box {
+        font-size: 12px;
+        margin: 20px;
+    }
+
+    .custom-user-gap {
+        margin-bottom: 10px;
+    }
+
+    .fa-circle-chevron-left {
+        margin-right: 5px;
+    }
+
+    .svg-inline--fa {
+        font-size: 20px;
+    }
+}
+

@@ -1,0 +1,38 @@
+.custom-auth-body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+}
+
+.custom-auth-delete-spacing {
+    background-image: url('../images/image 2.png');
+    padding: 0;
+}
+
+.custom-auth-transperency {
+    background-color: #0D28A6;
+    height: 100vh;
+    width: 100%;
+    margin: 0 0 0 0px;
+    opacity: 0.3;
+}
+
+.custom-auth-point {
+    height: 100vh;
+}
+
+.custom-auth-font {
+    font-size: 14px;
+}
+
+.custom-auth-logo {
+    width: 100px;
+    height: 34px;
+    background: #CFD4ED;
+}
+
+.custom-auth-sign {
+    background: #0D28A6;
+    font-size: 14px;
+}
+
